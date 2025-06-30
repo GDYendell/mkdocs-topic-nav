@@ -1,0 +1,18 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# MkDocs build output
+site/
+
+# Virtual environments (common names)
+venv/
+env/
+
+# VS Code config (optional)
+.vscode/
+
+# Local MkDocs plugin builds (optional)
+*.egg-info/
+dist/
+build/
