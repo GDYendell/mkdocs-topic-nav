@@ -1,4 +1,4 @@
-site_name: My Docs | Kubernetes
+site_name: My Docs | Auth
 
 theme:
   name: material
@@ -9,5 +9,5 @@ theme:
 
 nav:
   - Home: index.md
-  - Tutorials:
-      - Getting Started: tutorials/getting_started.md
+  - How-To:
+      - Python OIDC: how-tos/python-oidc-auth-example.md

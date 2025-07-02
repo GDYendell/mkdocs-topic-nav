@@ -2,6 +2,7 @@ site_name: My Docs
 
 plugins:
   - topic-nav
+  - monorepo
 
 theme:
   name: material
@@ -15,19 +16,8 @@ nav:
   - Home: index.md
   - Developer Environment:
       - developer-environment/index.md
-      - Auth:
-          - developer-environment/auth/index.md
-          - How-To:
-              - Python OIDC: developer-environment/auth/how-tos/python-oidc-auth-example.md
-      - Kubernetes:
-          - developer-environment/kubernetes/index.md
-          - Tutorials:
-              - Getting Started: developer-environment/kubernetes/tutorials/getting_started.md
+      - Auth: '!include ./topics/auth/mkdocs.yml'
+      - Kubernetes: '!include ./topics/kubernetes/mkdocs.yml'
   - Software Products:
       - software-products/index.md
-      - Athena:
-          - software-products/athena/index.md
-          - Explanations:
-              - software-products/athena/explanations/architecture.md
-          - How-Tos:
-              - software-products/athena/how-tos/machine-day-testing.md
+      - Athena: '!include ./topics/athena/mkdocs.yml'

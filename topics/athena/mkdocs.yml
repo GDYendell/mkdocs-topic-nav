@@ -1,4 +1,4 @@
-site_name: My Docs | Kubernetes
+site_name: My Docs | Athena
 
 theme:
   name: material
@@ -9,5 +9,7 @@ theme:
 
 nav:
   - Home: index.md
-  - Tutorials:
-      - Getting Started: tutorials/getting_started.md
+  - Explanations:
+      - explanations/architecture.md
+  - How-Tos:
+      - how-tos/machine-day-testing.md
