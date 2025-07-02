@@ -1,3 +1,3 @@
 # Software Products
 
-[Athena](athena/index.md)
+- [Athena](../athena/index.md)

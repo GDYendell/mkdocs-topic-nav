@@ -1,4 +1,4 @@
-site_name: My Docs | Kubernetes
+site_name: kubernetes
 
 theme:
   name: material

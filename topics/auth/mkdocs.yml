@@ -1,4 +1,4 @@
-site_name: My Docs | Auth
+site_name: auth
 
 theme:
   name: material
